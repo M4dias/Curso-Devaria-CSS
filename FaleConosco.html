@@ -1,0 +1,66 @@
+<Doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Fale Conosco</title>
+    </head>
+    <body>
+        <header>
+            <h1> Fale com a Devaria através dessa pagina</h1>
+            <nav> <!-- Menus de navegação-->
+                <ul>
+                    <li><a href="index.html">Home </a> </li>
+                    <li><a href="Professores.html"> Professores> </a> </li>
+                    <li><a href="FaleConosco"> Fale Conosco> </a> </li>
+                    <li><a href="DevStars.html">DevStars</a></li>
+                </ul>
+            </nav>                
+        </header>
+        <main>
+            <h2>Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
+            <section>
+                <form action="index.html"> <!--Indica para onde a pag vai depois de enviar o comentário-->
+                    <p>
+                        <label>Nome: </label><input type=“text” name=“Nome" maxlength="70" required="true" /> <!-- Dando nome para os campos contato-->
+                    </p>
+                    <p>
+                        <label>E-mail: </label><input type=“text” name=“Email" maxlength="150" required="true" />
+                    </p>
+                    <p>
+                        <label>Comentário: </label>
+                        <textarea name=“Comentario" rows="4" cols="50" required="true" ></textarea> <!-- Criação da caixa de texto-->
+                    </p>
+                    <p>
+                        <label>Sexo:</label> <!-- Nome do campo-->
+                        <input type="radio" name="Sexo"/> <label>Feminino</label> <!--Input type radio "button ou botão de escolha" é uma opção quando marcamos uma desmarcamos as outras-->
+                        <input type="radio" name="Sexo"/> <label>Masculino</label>  <!--Tem q ter o mesmo nome no caso name=Sexo igual o de cima -->
+                    </p>
+                    <p>
+                        <label>Aonde nos conheceu?</label>
+                        <select name="Conheceu"> <!--Marcação de uma lista de opção é uma lista suspensa-->
+                            <option selected>Youtube</option> <!-- Opção por padrão vai carregar esse primeiro-->
+                            <option>Google</option>
+                            <option>Amigos</option>
+                            <option>Outros</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="checkbox" name="Novidades" value="Aceite"/> <!-- imput checkbox funciona igual a caixa de seleção pode marcar varias opções-->
+                        <label>Aceito receber e-mails de novidades</label>
+                    </p>
+                    <p>
+                        <input type="submit" name="Enviar" value="Enviar"/> <!--Botões de ações-->
+                        <input type="reset" name="Limpar" value="Limpar"/>  <!--Botões de ações-->
+                    </p>
+                </form>
+            </section>                
+        </main>
+        <footer>
+            <section>
+                <span>contato@devaria.com.br</span> <br />
+                </span>Conheça o nosso canal do Youtube</span>
+            </section>
+        </footer>
+    </body>
+</html>
+       
