@@ -6,3 +6,13 @@
     criando class e id, na linha 24 exemplo de classa aplicado
     na linha 28 exemplo de id aplicado*/
 
+.cover-container figure img {
+    width: 100%;
+}
+/* estamos determinando o tamanho da imagem de capa usamos 100% porque
+se adapta melhor a qualquer tamanho de tela.
+Exisem outros modos de fazer isso o px você determina o tamanho pela
+quantidade de pixels e vai ser um tamanho fixo.
+Temos também o exemplo 100em ele respeita o tamanho padrão das fontes e 
+também temos o rem exemplo 100rem ele respeita o padrãop do documento raiz
+o html*/
