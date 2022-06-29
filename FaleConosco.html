@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="public/css/devaria.css" />
         <link rel="stylesheet" href="public/css/footer.css" />
         <link rel="stylesheet" href="public/css/header.css" />
+        <link rel="stylesheet" href="public/css/professores.css" />
+        <link rel="stylesheet" href="public/css/fale-conosco.css" />
+
     </head>
     <body>
         <header>
@@ -25,9 +28,9 @@
         </header>
         <main>
             <h1 class="title text-center"> Fale com a Devaria através dessa pagina</h1>
-            <h2 class="title text-center">Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
+            <h2 class="sub-title text-center">Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
             <section>
-                <form action="index.html"> <!--Indica para onde a pag vai depois de enviar o comentário-->
+                <form action="index.html" class="contact-form margin-horizontal-20px"> <!--Indica para onde a pag vai depois de enviar o comentário-->
                     <div>
                         <label>Nome: </label><input type=“text” name=“Nome" maxlength="70" required="true" /> <!-- Dando nome para os campos contato-->
                     </div>
@@ -40,11 +43,11 @@
                     </div>
                     <div>
                         <label>Sexo:</label> <!-- Nome do campo-->
-                        <input type="radio" name="Sexo"/> <label>Feminino</label> <!--Input type radio "button ou botão de escolha" é uma opção quando marcamos uma desmarcamos as outras-->
-                        <input type="radio" name="Sexo"/> <label>Masculino</label>  <!--Tem q ter o mesmo nome no caso name=Sexo igual o de cima -->
+                        <input type="radio" name="Sexo"/> <span>Feminino</span> <!--Input type radio "button ou botão de escolha" é uma opção quando marcamos uma desmarcamos as outras-->
+                        <input type="radio" name="Sexo"/> <span>Masculino</span>  <!--Tem q ter o mesmo nome no caso name=Sexo igual o de cima -->
                     </div>
                     <div>
-                        <label>Aonde nos conheceu?</label>
+                        <labespl>Aonde nos conheceu?</label>
                         <select name="Conheceu"> <!--Marcação de uma lista de opção é uma lista suspensa-->
                             <option selected>Youtube</option> <!-- Opção por padrão vai carregar esse primeiro-->
                             <option>Google</option>
@@ -54,7 +57,7 @@
                     </div>
                     <div>
                         <input type="checkbox" name="Novidades" value="Aceite"/> <!-- imput checkbox funciona igual a caixa de seleção pode marcar varias opções-->
-                        <label>Aceito receber e-mails de novidades</label>
+                        <span>Aceito receber e-mails de novidades</span>
                     </div>
                     <div>
                         <input type="submit" name="Enviar" value="Enviar"/> <!--Botões de ações-->

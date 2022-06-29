@@ -2,6 +2,7 @@
 html {
     height: 100px ;
 }
+
 body {
     background-color: #1c0c3f;
     font-family: sans-serif;
@@ -19,25 +20,21 @@ h1.title {
     margin: 40px auto 20px;
 }
 
-
-text-justify{
+.text-justify{
     text-align: justify;
 }
 
-text-justify{
+.text-center{
     text-align: center;
 }
 
 .margin-horizontal-20px {
-
     margin-left: 20px;
     margin-right: 20px;
 }
 
-@media  and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     .width-50pct-desktop{
-        width:50% !important;
+        width: 50% !important;
     }
 }
-    
-

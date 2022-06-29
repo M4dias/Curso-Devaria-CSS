@@ -19,15 +19,16 @@ o html*/
 
 
 main h3.title {
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1.2em;    
 }
 
 main section abbr{
     color: #25cbd3;
     text-decoration: none;
 }
-
+.section-video {
+    padding: 26px;
+}
 @media screen and (min-width:992px) {
     .cover-container {
         width: 40%;
@@ -44,5 +45,4 @@ main section abbr{
         margin-bottom: 25px;
         text-align: center;
     }
-
 }
