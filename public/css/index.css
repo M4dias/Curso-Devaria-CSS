@@ -16,3 +16,33 @@ quantidade de pixels e vai ser um tamanho fixo.
 Temos também o exemplo 100em ele respeita o tamanho padrão das fontes e 
 também temos o rem exemplo 100rem ele respeita o padrãop do documento raiz
 o html*/
+
+
+main h3.title {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+main section abbr{
+    color: #25cbd3;
+    text-decoration: none;
+}
+
+@media screen and (min-width:992px) {
+    .cover-container {
+        width: 40%;
+    }
+
+    .cover-container,
+    .section-video {
+        display: inline-block;
+    }
+
+    main .section-azure blockquote{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+}

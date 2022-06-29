@@ -9,10 +9,13 @@
         <meta http-equiv="refresh" content="500"/>
         <meta name="Viewport" content="width=device-width, inicial-scale= 1.0"/>
         <link rel="stylesheet" href="public/css/devaria.css" />
+        <link rel="stylesheet" href="public/css/footer.css" />
         <link rel="stylesheet" href="public/css/header.css" />
         <link rel="stylesheet" href="public/css/index.css" />
+
         <title> Olá mundo!</title>
     </head>
+
     <body>
         <header>
             <a href="index.html" class="link-logo">
@@ -26,36 +29,37 @@
                 </ul>
             </nav>                
         </header>
-        <main>
+        <main class="text-center">
             <h1 class="title"> Olá mundo! Está é a minha primeira página da Web.</h1>
-            
-            <!--
-            <section>
-            </section> Exemplo com DIV
-            <div>
-                <img src="Fotos/fotohome.png" width="500" alt="Devaria - Olá Mundo"/>
-            </div>
-        </section>-->    
+  
             <section class="cover-container">
                 <figure>
                     <img src="public/Fotos/fotohome.png" alt="Devaria - Olá Mundo"/>
                     <figcaption>Foto de capa Devaria!</figcaption>
                 </figure>
             </section>
-            <section>                
-                <!-- Para anexar um video de uma pasta podemos fazer assim,
+
+            <section class="section-video">
+                <!-- Para anexar um video de uma pasta podemos fazer assim-->
                 <video width="320" height="240" controls="controls"> padrões do video
-                    <source src="videos/anuncio.mp4" type="video/mp4"> local do video
-                </video>-->
-                <di><!-- width era 560-->
-                    <iframe width="350" height="350" src="https://www.youtube.com/embed/ZEqYpFQZHsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </di>
+                    <source src="public/Videos/anuncio.mp4" type="video/mp4"> local do video
+                </video>
+
+            <section class="section-azure">
+                <h3 class="title">Para os <abbr title="Developers"> DEVs</abbr> saberem, a Devaria utiliza <abbr title="Micrsoft"> MS</abbr> Azure</h3>
+                <blockquote class="text-justify" cite="https://azure.microsoft.com/pt-br/">
+                    Resolva os problemas de negócios com combinações comprovadamente eficientes de 
+                    produtos e serviços do Azure. Introdução a documentação e às arquiteturas do exemplo
+                    </blockquote>
             </section>
+
         </main>
-        </footer>
+        <footer>
             <section>
                 <span>contato@devaria.com.br</span> <br />
                 <span>Conheça o nosso canal do Youtube</span>
             </section>
+        </footer>
     </body>
+    
 </html>

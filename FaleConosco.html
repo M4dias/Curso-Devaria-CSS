@@ -5,6 +5,7 @@
         <title> Fale Conosco</title>
         <meta name="Viewport" content="width=device-width, inicial-scale= 1.0"/>
         <link rel="stylesheet" href="public/css/devaria.css" />
+        <link rel="stylesheet" href="public/css/footer.css" />
         <link rel="stylesheet" href="public/css/header.css" />
     </head>
     <body>
@@ -23,26 +24,26 @@
             </nav>                
         </header>
         <main>
-            <h1> Fale com a Devaria através dessa pagina</h1>
-            <h2>Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
+            <h1 class="title text-center"> Fale com a Devaria através dessa pagina</h1>
+            <h2 class="title text-center">Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
             <section>
                 <form action="index.html"> <!--Indica para onde a pag vai depois de enviar o comentário-->
-                    <p>
+                    <div>
                         <label>Nome: </label><input type=“text” name=“Nome" maxlength="70" required="true" /> <!-- Dando nome para os campos contato-->
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>E-mail: </label><input type=“text” name=“Email" maxlength="150" required="true" />
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Comentário: </label>
                         <textarea name=“Comentario" rows="4" cols="50" required="true" ></textarea> <!-- Criação da caixa de texto-->
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Sexo:</label> <!-- Nome do campo-->
                         <input type="radio" name="Sexo"/> <label>Feminino</label> <!--Input type radio "button ou botão de escolha" é uma opção quando marcamos uma desmarcamos as outras-->
                         <input type="radio" name="Sexo"/> <label>Masculino</label>  <!--Tem q ter o mesmo nome no caso name=Sexo igual o de cima -->
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Aonde nos conheceu?</label>
                         <select name="Conheceu"> <!--Marcação de uma lista de opção é uma lista suspensa-->
                             <option selected>Youtube</option> <!-- Opção por padrão vai carregar esse primeiro-->
@@ -50,15 +51,15 @@
                             <option>Amigos</option>
                             <option>Outros</option>
                         </select>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <input type="checkbox" name="Novidades" value="Aceite"/> <!-- imput checkbox funciona igual a caixa de seleção pode marcar varias opções-->
                         <label>Aceito receber e-mails de novidades</label>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <input type="submit" name="Enviar" value="Enviar"/> <!--Botões de ações-->
                         <input type="reset" name="Limpar" value="Limpar"/>  <!--Botões de ações-->
-                    </p>
+                    </div>
                 </form>
             </section>                
         </main>
