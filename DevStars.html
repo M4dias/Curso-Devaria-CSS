@@ -8,9 +8,11 @@
         <link rel="stylesheet" href="public/css/footer.css" />
         <link rel="stylesheet" href="public/css/header.css" />
         <link rel="stylesheet" href="public/css/fale-conosco.css" />
+        <link rel="stylesheet" href="public/css/devstars.css" />
         <link rel="stylesheet" href="public/css/professores.css" />
 
     </head>
+
     <body>
         <header>
             <a href="index.html" class="link-logo">
@@ -25,14 +27,14 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="text-center">
             <h1>Ranking Devstars</h1>
             <h2>Como funciona os pontos DevStar?</h2>
             <section>
-                <h3>Pontos recebidos através de desafios</h3>
-                <table>
+                <div class="text-center">Pontos recebidos através de desafios</div>
+                <table class="tabela"     >
                     <thead> <!-- Cabeçario/Colunas-->
-                        <th>-</th>
+                        <th>Tipo</th>
                         <th>No dia</th>
                         <th>Na semana</th>
                         <th>Depois de uma semana</th>                        
@@ -48,15 +50,15 @@
                 </table>
             </section>
             <section>
-                <h3>Pontuação de comentários</h3>
-                <table>
+                <div>Pontuação de comentários</div>
+                <table class="tabela">
                     <thead>
                         <th>Tipo de pontuação</th>
                         <th>Menos de 5</th>
                         <th>De 5 até 10</th>
                         <th>Maior que 10</th>
                     </thead>
-                    <tbody>
+                    <tbody >
                         <tr> 
                             <td>Pontuação na Live</td>
                             <td>50xp</td>
@@ -72,16 +74,14 @@
                     </tbody>
                 </table>                 
             </section>
-            <section>
-                <div>
-                    <iframe src="https://www.devaria.com.br/devstars" width="1200" height="400"></iframe>                    
-                </div>
 
-                <!-- Para anexar um video de uma pasta podemos fazer assim,
-                <video width="320" height="240" controls="controls"> padrões do video
-                    <source src="videos/anuncio.mp4" type="video/mp4"> local do video
-                </video>-->
-            </section>            
+            <section class="section-azure">
+                <div>Os que tiverem as melhores pontuações no ranking <abbr title="DevStars"> Dev</abbr> receberam brindes da Devaria</div>
+                <blockquote class="text-justify" cite="https://www.devaria.com.br/devstars">
+                    Ganhe destaque durante o aprendizado!!
+                    </blockquote>
+            </section>
+            
             <br>
             <br>
         </main>

@@ -22,10 +22,12 @@ h1.title {
 
 .text-justify{
     text-align: justify;
+    
 }
 
 .text-center{
     text-align: center;
+      
 }
 
 .margin-horizontal-20px {
@@ -36,5 +38,6 @@ h1.title {
 @media screen and (min-width: 992px) {
     .width-50pct-desktop{
         width: 50% !important;
+        display: inline-block;
     }
 }
