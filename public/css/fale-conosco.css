@@ -90,7 +90,7 @@ main .contact-form input[type="reset"] {
     main .contact-form input[type="reset"] {
         width: auto;
         padding:10px;
-        outline:none;
+        outline:none; /* tratar a borda exterior quando o item é selecionado*/
     }
     main .contact-form > div input[type="submit"]{
         margin-right: 20px;
